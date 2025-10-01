@@ -29,11 +29,18 @@ export default function Header() {
             </SignedOut>
             <SignedIn>
               <Link
+                href="/repos"
+                className="text-gray-300 hover:text-white mr-4"
+              >
+                repos
+              </Link>
+              <Link
                 href="/dashboard"
                 className="text-gray-300 hover:text-white mr-4"
               >
                 DashBoard-S
               </Link>
+
               <Link
                 href="/dashboard-c"
                 className="text-gray-300 hover:text-white mr-4"
